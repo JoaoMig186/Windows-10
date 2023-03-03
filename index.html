@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <script src="script.js" defer></script>
+    <title>Windows10</title>
+</head>
+<body>
+    <section class="areaDeTrabalho">
+        <div class="linha">
+            <div class="atalhos">
+                
+                    <img src="imgs/lixeira.png">
+                    <center>Lixeira</center>
+                
+            </div>
+            <div class="atalhos">
+                    <a href="https://www.microsoft.com/pt-br/edge">
+                        <img src="imgs/edge.png">
+                        <center>Microsoft Edge</center>
+                    </a>
+                </div>
+            <div class="atalhos">
+                <a href="https://vscode.dev/">
+                    <img src="imgs/vcsode.png">
+                    <center>Visual Studio Code</center>
+                </a>
+            </div>
+        </div>
+        <div class="linha">
+            <div class="atalhos">
+                <a href="https://www.google.com/">
+                    <img src="imgs/chrome.png">
+                    <center>Google Chrome</center>
+                </a>
+            </div>
+            <div class="atalhos">
+                <a href="https://paint.js.org/">
+                    <img src="imgs/paint.png">
+                    <center>Paint</center>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="secMenu" id="menu" style="display: none;">
+        <div id="conteudoEsquerda">
+            <button id="botaoMenu">☰</button>
+            <div class="itensMenuEsquerda"> 
+                <span><img src="imgs/file.png" ></span>
+                <span><img src="imgs/configs.png" ></span>
+                <span><img src="imgs/desliga.png" ></span>
+            </div>
+        </div>
+        <div class="itensMenu">
+            <div id="conteudoMeio">
+                <div class="itensMenuMeio"> </div>
+            </div>
+            <div id="conteudoDireita">
+
+            </div>
+        </div>
+    </section>
+    
+    <section class="barraFinal">
+        <footer class="barraDeTarefas">
+            
+            <button id="iconesLogo">
+                <img src="imgs/logo.png" onmouseover="this.src='imgs/logoAzul.png'" onmouseout="this.src='imgs/logo.png'">
+                <span>Iniciar</span>
+            </button>
+            <div id="barraDePesquisa">
+                <input type="search" name="pesquisa" id="pesquisar" placeholder="&#xF002; Pesquise aqui" style="font-family:Arial, FontAwesome">
+            </div>
+            <div id="iconesCirculo">
+                <img src="imgs/circulo.png">
+                <span>Círculo</span>
+            </div>
+            <div id="iconesEdge">
+                <a href="https://www.microsoft.com/pt-br/edge"><img src="imgs/edge.png"></a>
+                <span>Microsoft Edge</span>
+            </div>
+            <div id="iconesStore">
+                <a href="https://www.microsoft.com/pt-br/store/collections/pcgavtaz"><img src="imgs/store.png"></a>
+                <span>Microsoft Store</span>
+            </div>
+            <div id="horaDataOutros">
+                <div class="temperatura">
+                    <div class="conjunto">
+                        <img src="imgs/clound.png">
+                    <span class="temp">20°C Nuvens</span>
+                    </div>
+                    <span class="alt">Clima</span>
+                </div>
+                <div class="setinha">
+                    <img src="imgs/setinha.png">
+                    <span>Mostrar icones ocultos</span>
+                </div>
+                <div class="internet">
+                    <img src="imgs/internet.png">
+                    <span>Internet</span>
+                </div>
+                <div class="dataEhora">
+                    <div class="conjunto">
+                        <span class="hora">16:49</span>
+                    <span class="data">16/05/2022</span>
+                    </div>
+                    <span class="alt">Data e Hora</span>
+                </div>
+                <div class="iconeMensagem">
+                    <img src="imgs/mensagem.png">
+                    <span>Mensagens</span>
+                </div>
+
+                <button id="recarregar"></button>
+            </div>
+            
+        </footer>
+    </section>
+    
+</body>
+</html>
